@@ -9,7 +9,7 @@ print "Name = $name\n";
 print "Salary = $salary\n";
 
 @ages = (25, 30, 40);
-@names = ("Jonh Paul", "Lisa", "Kumar");
+@names = ("John Paul", "Lisa", "Kumar");
 
 print "\$ages[0] = $ages[0]\n";
 print "\$ages[1] = $ages[1]\n";
@@ -23,3 +23,10 @@ print "\$names[2] = $names[2]\n";
 print "\$data{'John Paul'} = $data{'John Paul'}\n";
 print "\$data{'Lisa'} = $data{'Lisa'}\n";
 print "\$data{'Kumar'} = $data{'Kumar'}\n";
+
+$size = @names;
+@copy = @names;
+
+print "Given names are: @copy\n";
+print "Number of names are: $size\n";
+
